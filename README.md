@@ -1,7 +1,6 @@
-# hello-testling
-Sample app to try out testling functionality
+# hello-zuul
+Sample app to try out zuul functionality
 
+## Status
 
-## Notes
-
-Looks like Testling has been [down](https://github.com/substack/testling/issues/88) for several months. :(
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/pheuter.svg)](https://saucelabs.com/u/pheuter)

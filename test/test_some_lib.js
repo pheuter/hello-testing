@@ -1,18 +1,16 @@
-var test = require('tape');
+var assert = require('assert');
 
 var someLib = require('../src/some_lib');
 var adder = someLib.adder;
 var domExists = someLib.domExists;
 
 
-test('adding two numbers', function(t) {
+test('adding two numbers', function() {
   var sum = adder(5,7);
 
-  t.equal(sum, 13);
-  t.end();
+  assert.equal(sum, 12);
 });
 
-test('checking if DOM exists', function(t) {
-  t.equal(domExists(), true);
-  t.end();
+test('checking if DOM exists', function() {
+  assert.equal(domExists(), true);
 });
