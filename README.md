@@ -12,5 +12,3 @@ Sample app to try out zuul functionality
 ## Sauce Labs
 
 Specify desired browsers to test in [zuul.yml](.zuul.yml).
-
-![Status](https://www.dropbox.com/s/nojcst5pgn3z54i/Screenshot%202015-02-07%2010.40.12.png?dl=0)
