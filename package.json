@@ -1,0 +1,32 @@
+{
+  "name": "hello-testling",
+  "version": "0.0.1",
+  "description": "Sample app to try out testling functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserify -t coverify test/* | testling | coverify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pheuter/hello-testling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pheuter/hello-testling/issues"
+  },
+  "homepage": "https://github.com/pheuter/hello-testling",
+  "devDependencies": {
+    "browserify": "^8.1.3",
+    "coverify": "^1.0.7",
+    "tape": "^3.5.0",
+    "testling": "^1.7.1"
+  },
+  "testling": {
+    "browsers": [
+      "ie/9",
+      "firefox/3.5", "firefox/latest",
+      "chrome/latest"
+    ]
+  }
+}
