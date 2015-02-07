@@ -8,7 +8,7 @@ var domExists = someLib.domExists;
 test('adding two numbers', function(t) {
   var sum = adder(5,7);
 
-  t.equal(sum, 12);
+  t.equal(sum, 13);
   t.end();
 });
 
